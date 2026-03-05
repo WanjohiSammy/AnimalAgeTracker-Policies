@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Animal Age Tracker</title>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1a1a2e;
+            --accent: #4a6fa5;
+            --muted: #6b7280;
+            --border: #e5e7eb;
+            --card-bg: #f9fafb;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1a1a2e;
+                --text: #e5e7eb;
+                --accent: #7aa2d6;
+                --muted: #9ca3af;
+                --border: #374151;
+                --card-bg: #222244;
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 740px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.25rem;
+        }
+        .subtitle {
+            color: var(--muted);
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+        }
+        h2 {
+            font-size: 1.35rem;
+            margin-top: 2.25rem;
+            margin-bottom: 0.75rem;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.35rem;
+        }
+        h3 {
+            font-size: 1.1rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        p, li {
+            margin-bottom: 0.65rem;
+        }
+        ul {
+            padding-left: 1.5rem;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .highlight {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1rem 1.25rem;
+            margin: 1rem 0;
+        }
+        .badge {
+            display: inline-block;
+            background: var(--accent);
+            color: #fff;
+            font-size: 0.75rem;
+            padding: 0.15rem 0.55rem;
+            border-radius: 4px;
+            vertical-align: middle;
+            margin-left: 0.3rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+        th, td {
+            text-align: left;
+            padding: 0.6rem 0.75rem;
+            border-bottom: 1px solid var(--border);
+        }
+        th {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--muted);
+        }
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 0.85rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🐾 Privacy Policy</h1>
+        <p class="subtitle">Animal Age Tracker &nbsp;·&nbsp; Effective date: March 7, 2026</p>
+
+        <div class="highlight">
+            <strong>Summary:</strong> Animal Age Tracker is an offline-first app. Your animal data, photos, and health records are stored <em>only</em> on your device. We do not collect, transmit, or sell your personal information. Third-party services (Google AdMob and Google Play Billing) may collect limited data as described below.
+        </div>
+
+        <h2>1. Information We Collect</h2>
+
+        <h3>1.1 Data You Provide</h3>
+        <p>When you use the app, you may enter the following information. All of it is stored <strong>locally on your device</strong> in a private Room database and is never sent to our servers (we do not operate any servers).</p>
+
+        <table>
+            <thead>
+                <tr><th>Category</th><th>Examples</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Animal profiles</td><td>Name, species, breed, gender, weight, color, birth/conception date, allergies, notes</td></tr>
+                <tr><td>Photos &amp; videos</td><td>Images captured via camera or selected from gallery</td></tr>
+                <tr><td>Health records</td><td>Vet visit logs, symptoms, treatments, medications, severity</td></tr>
+                <tr><td>Growth records</td><td>Weight and height measurements over time</td></tr>
+                <tr><td>Feeding records</td><td>Food type, amount, date, time, notes</td></tr>
+                <tr><td>Reminders</td><td>Vet appointments, vaccinations, grooming, medication schedules</td></tr>
+                <tr><td>Milestones</td><td>Life events with optional photos (birth, first walk, vaccination, custom)</td></tr>
+                <tr><td>App preferences</td><td>Theme, units, date format, notification settings, backup frequency</td></tr>
+            </tbody>
+        </table>
+
+        <h3>1.2 Data We Do <em>Not</em> Collect</h3>
+        <ul>
+            <li>We do <strong>not</strong> collect your name, email, phone number, or any personal identity information.</li>
+            <li>We do <strong>not</strong> create user accounts or require sign-in.</li>
+            <li>We do <strong>not</strong> use analytics, crash-reporting, or telemetry SDKs (other than what the Android OS or Google Play Services may collect independently).</li>
+            <li>We do <strong>not</strong> access your contacts, location, microphone, or any sensors beyond the camera (which requires your explicit permission).</li>
+        </ul>
+
+        <h2>2. How Your Data Is Stored</h2>
+        <p>All data is stored exclusively on your device using Android's private app storage:</p>
+        <ul>
+            <li><strong>Database:</strong> Room (SQLite) database in the app's private directory.</li>
+            <li><strong>Preferences:</strong> SharedPreferences in the app's private directory.</li>
+            <li><strong>Media:</strong> Photos and videos stored in the app's private cache/files directory.</li>
+        </ul>
+        <p>No data is stored on external servers, cloud services, or remote databases.</p>
+
+        <h2>3. Backup &amp; Export</h2>
+
+        <h3>3.1 Backup Files (.aatb)</h3>
+        <p>You can create backup files containing your full database and media. These backups are saved to a location <strong>you choose</strong> on your device (e.g., Downloads folder, Google Drive, or another storage provider). Backup files use HMAC-SHA256 integrity verification to detect tampering. <strong>You are responsible for the security of your backup files once exported.</strong></p>
+
+        <h3>3.2 CSV &amp; PDF Exports</h3>
+        <p>You can export animal data as CSV spreadsheets or PDF reports. These files are saved to a location you choose and may be shared via the Android share sheet. Exported CSV files are sanitized against formula-injection attacks.</p>
+
+        <h3>3.3 Sharing Features</h3>
+        <p>Profile cards, QR codes, and text summaries can be shared via the Android share sheet. When you share content, it is sent through the sharing mechanism you select (e.g., messaging apps, email). We have no control over or access to shared content once it leaves the app.</p>
+
+        <h3>3.4 Deep Links &amp; QR Codes</h3>
+        <p>The app can generate QR codes that encode animal profile data in a URL (<code>https://animalagetracker.app/pet?...</code>). Scanning a QR code imports the encoded data into the app. The data is embedded directly in the URL — no server is contacted during this process.</p>
+
+        <h2>4. Third-Party Services</h2>
+
+        <h3>4.1 Google AdMob <span class="badge">Ads</span></h3>
+        <p>The free tier of the app displays banner advertisements served by Google AdMob. Google may collect certain information for ad personalization and measurement purposes, including:</p>
+        <ul>
+            <li>Device identifiers (Advertising ID)</li>
+            <li>IP address</li>
+            <li>General location (derived from IP)</li>
+            <li>Device and app information (model, OS version, app version)</li>
+        </ul>
+        <p>You can opt out of personalized ads in your device's <strong>Settings → Privacy → Ads</strong> (or equivalent). For more details, see <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a> and <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">How Google uses data from apps</a>.</p>
+
+        <h3>4.2 Google Play Billing <span class="badge">Purchases</span></h3>
+        <p>Premium features are unlocked via a one-time in-app purchase processed entirely by Google Play. We do not collect or store any payment information. Purchase status is verified locally against Google Play and cached on your device. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a> for details on how Google handles purchase data.</p>
+
+        <h3>4.3 No Other Third Parties</h3>
+        <p>We do not integrate any other third-party analytics, advertising, crash-reporting, or data-collection SDKs.</p>
+
+        <h2>5. Permissions</h2>
+        <table>
+            <thead>
+                <tr><th>Permission</th><th>Purpose</th><th>Required?</th></tr>
+            </thead>
+            <tbody>
+                <tr><td><code>INTERNET</code></td><td>Required by AdMob to serve ads and by Google Play Billing to verify purchases</td><td>Yes</td></tr>
+                <tr><td><code>CAMERA</code></td><td>Take photos of your animals directly from the app</td><td>Optional — requested at runtime</td></tr>
+                <tr><td><code>POST_NOTIFICATIONS</code></td><td>Show care reminders and birthday notifications</td><td>Optional — requested at runtime (Android 13+)</td></tr>
+                <tr><td><code>READ/WRITE_EXTERNAL_STORAGE</code></td><td>Access photos from gallery on older Android versions (≤ API 28/32)</td><td>Legacy only</td></tr>
+                <tr><td><code>RECEIVE_BOOT_COMPLETED</code></td><td>Reschedule notification workers after device restart</td><td>Yes</td></tr>
+            </tbody>
+        </table>
+
+        <h2>6. Children's Privacy</h2>
+        <p>Animal Age Tracker is not directed at children under the age of 13. We do not knowingly collect personal information from children. The app does not require account creation or collect any identifying information from any user.</p>
+
+        <h2>7. Data Retention &amp; Deletion</h2>
+        <ul>
+            <li><strong>Your data stays on your device.</strong> If you uninstall the app, all data (database, preferences, cached media) is automatically deleted by the Android operating system.</li>
+            <li>You can delete individual animals, records, or media at any time from within the app.</li>
+            <li>You can clear all app data via Android <strong>Settings → Apps → Animal Age Tracker → Clear Data</strong>.</li>
+            <li>Backup files you exported remain in the location you saved them and must be deleted manually.</li>
+        </ul>
+
+        <h2>8. Security</h2>
+        <ul>
+            <li>All data is stored in Android's private app directory, inaccessible to other apps (unless the device is rooted).</li>
+            <li>Backup files use HMAC-SHA256 signatures to detect and reject tampered data.</li>
+            <li>CSV exports are sanitized against formula-injection attacks.</li>
+            <li>Release builds use R8 code shrinking and obfuscation.</li>
+            <li>No data is transmitted over the network by the app itself (only by Google AdMob and Google Play Billing SDKs).</li>
+        </ul>
+
+        <h2>9. Changes to This Policy</h2>
+        <p>We may update this privacy policy from time to time. Changes will be posted on this page with an updated effective date. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+
+        <h2>10. Contact</h2>
+        <p>If you have any questions or concerns about this privacy policy, please contact us:</p>
+        <ul>
+            <li>Email: <a href="mailto:sam.wanjohi94@gmail.com;lovetotheworld.sam@gmail.com">Sam</a></li>
+        </ul>
+
+        <footer>
+            &copy; 2026 Animal Age Tracker &nbsp;·&nbsp; This page is hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>
+        </footer>
+    </div>
+</body>
+</html>
